@@ -59,5 +59,11 @@
 }
 
 .project-tile {
-    width: 400px;
+  position: relative;
+  width: 420px;
+  display: inline-block;
+}
+
+.project-image {
+  width: 100%;
 }
