@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+    body {
+      margin: 0px;
+    }
+  } 
+
+  #navbar {
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #355ee2;
+    top:0;
+    left:0;
+    width: 100%;
+  }
+
+  #navbar a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;    
+}
+
+#navbar a:hover {
+   
+    color: #f2f2f2;
+    background-color: red;
+}
+  #welcome-section {
+      height: 100vh;
+      background-color: black;
+      width: fit-content;
+    
+  }
